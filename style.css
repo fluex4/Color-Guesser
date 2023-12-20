@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200;400&family=Poppins:wght@100;500&display=swap');
+
+*{
+    font-family: poppins;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body{
+    width: 100vw;
+    height: max-content;
+    min-height: 100vh;
+    background-image: radial-gradient(circle,#1d2934,#0f1a24);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1{
+    font-family: "Playpen Sans";
+    font-size: 3.5rem;
+    cursor: pointer;
+    color: white;
+    text-shadow: 0px 0px 12px rgb(118, 112, 112);
+}
+h1:hover{
+    font-family: "Playpen Sans";
+    font-size: 3.5rem;
+    cursor: pointer;
+    color: white;
+    text-shadow: 0px 0px 12px rgb(118, 112, 112);
+    animation: hoverr 5s linear 0s 1;
+}
+h2{
+    font-size: 2rem;
+    border-bottom: 1px solid white;
+}
+h3{
+    font-size: 1.6rem;
+
+    border-bottom: 1px solid white;
+}
+ @keyframes hoverr {
+    0%{
+        text-shadow: 0px 0px 15px violet;
+    }
+    15%{
+        text-shadow: 0px 0px 15px indigo;
+    }
+    30%{
+        text-shadow: 0px 0px 15px blue;
+    }
+    45%{
+        text-shadow: 0px 0px 15px green;
+    }
+    60%{
+        text-shadow: 0px 0px 15px yellow;
+    }
+    75%{
+        text-shadow: 0px 0px 15px orange;
+    }
+    90%{
+        text-shadow: 0px 0px 15px red;
+    }
+    100%{
+        text-shadow: 0px 0px 15px rgb(118, 112, 112);
+    } 
+ }
+nav{
+    border-bottom: 1px solid white;
+    background-color: #0f1a2400;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 5px;
+}a{
+    font-size: 1.2rem;
+    font-family: poppins;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 5px rgb(123, 118, 118);
+}
+a:hover{
+    font-size: 1.2rem;
+    font-family: poppins;
+    text-decoration: none;
+}
+a:visited{
+    font-size: 1.2rem;
+    font-family: poppins;
+    color: white;
+    text-decoration: none;
+}
+a:focus{
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
+.right{
+    direction: flex;
+    justify-content: space-evenly;
+    width: max-content;
+    
+}
+button{
+    font-size: 0.9rem;
+    margin-right: 5px;
+    width: 50px;
+}
+footer{
+
+    background-color: black;
+    color: white;
+}
+.contain{
+    padding: 5%;
+    width: 100%;
+}
+.list{
+    margin: auto;
+    width: 40%;
+    height: 100%;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 25px;
+    min-height: 460px;
+    min-width: 340px;
+    color: white;
+}
+li{
+    font-size: 1.3rem;
+}
+ul{
+    padding: 5px;
+    margin-left: 10px;
+}
+#parenthere{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#here,#nothere,#rest{
+    width: 100%;
+}
+.hide{
+    display: none;
+}
+#rest button{
+    margin: 10px;
+    width: 120px;
+}

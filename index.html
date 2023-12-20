@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Guess-R</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <br>
+        <h1>Color Guess-R</h1>
+        <div class="right"><button onclick="location.reload()">Start</button><a href="https://github.com/fluex4" class="github">Github</a></div>
+    </nav>
+    <main>
+        <div class="contain">
+            <div class="list">
+                <h2>Hi! Choose a Color Below:</h2>
+                <div id="parenthere">
+                <div id="here">
+                    <ul>
+                        <li style="color: red;">Red</li>
+                        <li style="color: blue;">Blue</li>
+                        <li style="color: green;">Green</li>
+                        <li style="color: yellow;">Yellow</li>
+                        <li style="color: orange;">Orange</li>
+                        <li style="color: lime;">Lime</li>
+                        <li style="color: cyan">Cyan</li>
+                        <li style="color: white;">White</li>
+                        <li style="color: grey;">Grey</li>
+                    </ul>
+                </div>
+                <div class="start">
+                    <button onclick="Start()">Start</button>
+                </div>
+                <div class="nothere hide">
+                    <button onclick="next(1)">Yes</button>
+                    <button onclick="next(0)">No</button>
+                </div>
+                <div class="restart hide" id="rest">
+                    <button onclick="location.reload()">Restart</button>
+                </div>
+            </div></div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+<footer><h4>Fluex</h4><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita dolorum officiis eius cumque est repellendus animi, voluptatem at nulla beatae error.</p></footer>
+</html>
