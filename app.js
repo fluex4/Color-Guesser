@@ -1,6 +1,6 @@
 // ["Red","Blue","Green","Yellow","Orange","Lime","Cyan","White","Grey"],
 let list=[
-    ["Red","Blue","Orange","Cyan","Grey"],["Blue","Yellow","Lime","Cyan","Green"],["Green","Orange","Lime","Cyan","White","Grey"],["Red","Green","Yellow","White","Grey"]];
+    ["Red","Blue","Orange","Cyan","Grey"],["Blue","Yellow","Lime","Cyan","White"],["Green","Orange","Lime","Cyan","White","Grey"],["Red","Green","Yellow","White","Grey"]];
     
     let ul = document.getElementsByTagName("ul")[0];
     let current=0;
