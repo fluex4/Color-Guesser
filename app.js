@@ -50,7 +50,7 @@ let list=[
             case "1110":
             res="Cyan"
             break;
-            case "0111":
+            case "0011":
             res="White"
             break;
             case "1011":
